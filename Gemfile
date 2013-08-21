@@ -44,6 +44,7 @@ end
 group :development do
   gem "sqlite3"
   gem "fftw3"
+  gem "ruby-audio"
 end
 
 group :production do
@@ -54,5 +55,5 @@ end
 gem 'heroku'
 gem "narray"
 gem "ruby-audio-heroku"
-gem "ruby-audio"
+
 
