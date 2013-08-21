@@ -51,7 +51,7 @@ group :production do
   gem "pg"
 end
 
-
+gem 'heroku'
 gem "narray"
 gem "ruby-audio-heroku"
 gem "ruby-audio"
