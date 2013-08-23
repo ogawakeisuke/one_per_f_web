@@ -43,7 +43,7 @@ end
 
 group :development do
   gem "sqlite3"
-  gem "fftw3"
+  gem "vulcan"
 end
 
 group :production do
@@ -51,6 +51,7 @@ group :production do
   gem "pg"
 end
 
+gem "fftw3"
 gem 'heroku'
 gem "narray"
 gem "ruby-audio-heroku"

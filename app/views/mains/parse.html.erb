@@ -1,6 +1,5 @@
-<h1>傾きは <%= @result %>です！</h1>
+<h1>傾きは <%= to_rad @result %>です！</h1>
 <h1>差分値は <%= evalute @result %>です！</h1>
 <h1>結果は <%= (100 -(evalute @result)).round  %>点です！</h1>
 
 ※ 現在は傾き計算と差分値計算は工事中… <br>
-※ herokuではfftw入れれないので自力でdft関数を使うのでめちゃ遅い
